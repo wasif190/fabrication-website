@@ -14,7 +14,7 @@ function Navbar() {
   // }
 
   return (
-    <nav className='bg-[#222] py-4 px-[8%] text-white font-montserrat flex justify-between items-center text-[1.05rem]'>
+    <nav className='bg-[#222] py-4 sm:px-[8%] px-[4%] text-white font-montserrat flex justify-between items-center text-[1.05rem]'>
         <header>
             <img src={Logo} className='w-[100px]'/>
         </header>
