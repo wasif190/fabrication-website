@@ -1,11 +1,14 @@
 import React from 'react'
-import Navbar from './Components/Navbar';
-import Home from './Components/Home';
+import { Home , Services, About, Gallery, Contact} from './Components/index'
 
 function App() {
   return (
     <div>
         <Home/>
+        <Services/>
+        <About/>
+        <Gallery/>
+        <Contact/>
     </div>
   )
 }

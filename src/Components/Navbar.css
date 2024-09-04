@@ -15,13 +15,13 @@
     }
 }
 
-.nav-list a {
+.hover-nav {
     display: inline-block;
     position: relative;
     text-decoration: none;
 }
 
-.nav-list a::after {
+.hover-nav::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -35,7 +35,20 @@
     border-radius: 1px 1px;
 }
 
-.nav-list a:hover::after {
+.hover-nav:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.profile-img {
+    background: url(../src/assets/hero-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: blob 8s ease-in-out infinite 1s;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+}
+
+.navbar--active-content {
+    color: #d4d4d4;
 }

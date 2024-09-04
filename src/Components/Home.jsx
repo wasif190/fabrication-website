@@ -4,8 +4,8 @@ import Navbar from './Navbar';
 
 function Home() {
   return (
-    <main className='bg-[#222] h-screen flex items-center justify-between relative'>
-        <section className='absolute top-0 left-0 right-0 z-20 bg-[#222] bg-opacity-10 backdrop-blur-lg border-b border-white/30'>
+    <main id='hero' className='bg-[#222] h-screen flex items-center justify-between relative'>
+        <section className='fixed top-0 left-0 right-0 z-20 bg-[#222] bg-opacity-10 backdrop-blur-lg border-b border-white/30'>
             <Navbar/>
         </section>
         <section className='z-10 text-white sm:px-[8%] px-[4%] lg:w-[70%] md:w-[80%] lg:-mt-[50px] md:-mt-[150px] -mt-[220px]'> 

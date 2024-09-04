@@ -1,0 +1,28 @@
+{
+    "works": [
+        {
+            "id": 1,
+            "image": "/assets/gate.jpg",
+            "title": "Gate",
+            "price": "0000"
+        },
+        {
+            "id": 2,
+            "image": "/assets/gate2.webp",
+            "title": "Gate",
+            "price": "0000"
+        },
+        {
+            "id": 4,
+            "image": "/assets/window.jpg",
+            "title": "Window",
+            "price": "0000"
+        },
+        {
+            "id": 5,
+            "image": "/assets/window2.webp",
+            "title": "Window",
+            "price": "0000"
+        }
+    ]
+}
