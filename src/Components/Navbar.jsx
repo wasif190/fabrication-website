@@ -21,7 +21,7 @@ function Navbar() {
         </header>
 
         <ul className={`items-center gap-[3rem] text-lg font-medium md:flex 
-                  ${isNavActive ? 'absolute w-full h-[100vh] space-y-6 top-[5rem] bg-[#222] left-0 sm:px-[8%] px-[4%] pt-4 transition-all': 'hidden'}`}>
+                  ${isNavActive ? 'absolute w-full h-[100vh] top-[5rem] bg-[#222] left-0 sm:px-[8%] px-[4%] pt-4 transition-all': 'hidden'}`}>
           <Link
                         onClick={closeMenu}
                         activeClass="navbar--active-content"

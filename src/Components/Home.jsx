@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../assets/hero.png';
 import Navbar from './Navbar';
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
@@ -15,9 +16,18 @@ function Home() {
             <p className='mobile:text-[1.2rem] text-[1rem] mobile:pt-4 pt-1'>
                 We specialize in high-quality custom metal fabrication, delivering tailored solutions for all your industrial needs.
             </p>
-            <button className='py-[7px] mt-3 text-lg rounded px-14 bg-green-600 hover:bg-green-700'>
+            <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={400}
+                to="contact"
+            >
+                <button className='py-[7px] mt-3 text-lg rounded px-14 bg-green-600 hover:bg-green-700'>
                 Contact
-            </button>
+                </button>
+            </Link>
         </section>
         <div className='md:w-screen mobile:w-[200vw] w-[250vw] right-0 absolute bottom-0'>
             <img src={Hero}/>
