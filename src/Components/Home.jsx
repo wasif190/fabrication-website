@@ -15,7 +15,7 @@ function Home() {
             <p className='mobile:text-[1.2rem] text-[1rem] mobile:pt-4 pt-1'>
                 We specialize in high-quality custom metal fabrication, delivering tailored solutions for all your industrial needs.
             </p>
-            <button className='mobile:py-[7px] py-[5px] mt-3 text-lg rounded px-14 bg-green-700 hover:bg-green-600'>
+            <button className='py-[7px] mt-3 text-lg rounded px-14 bg-green-600 hover:bg-green-700'>
                 Contact
             </button>
         </section>
