@@ -1,0 +1,41 @@
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.nav-list i {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-list i {
+        display: block;
+    }
+}
+
+.nav-list a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-list a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 1px 1px;
+}
+
+.nav-list a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
