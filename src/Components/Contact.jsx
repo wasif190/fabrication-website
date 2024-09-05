@@ -24,7 +24,7 @@ function Contact() {
     const whatsappMessage = `Name: ${name}%0APlace: ${place}%0AMessage: ${message}`;
 
     // WhatsApp API URL with the message
-    const whatsappUrl = `https://wa.me/916291052948?text=${whatsappMessage}`;
+    const whatsappUrl = `https://wa.me/916238838387?text=${whatsappMessage}`;
 
     // Redirect to WhatsApp
     window.open(whatsappUrl, '_blank');
@@ -41,11 +41,7 @@ function Contact() {
         <section className='flex flex-col mt-5 items-start justify-center gap-[1rem] md:w-[70%] sm:text-xl text-lg mx-auto'>
           <a href="tel:6291052948" className='flex items-center gap-2'>
             <img src={CallLogo} className='w-[30px]'/>
-            6291052948
-          </a>
-          <a href="mail:wasif19010@gmail.com" className='flex items-center gap-2'>
-          <img src={MailLogo} className='w-[30px]'/>
-            wasif19010@gmail.com
+            6238838387
           </a>
         </section>
 
