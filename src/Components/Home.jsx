@@ -10,7 +10,7 @@ function Home() {
             <Navbar/>
         </section>
         <section className='z-10 text-white lg:w-[70%] md:w-[80%] lg:-mt-[50px] md:-mt-[150px] -mt-[220px]
-            xl:pt-3 lg:pt-[2rem] md:pt-[8rem] pt-0'
+            xl:pt-3 lg:pt-[2rem] md:pt-[8rem] pt-[2rem]'
         > 
             <h1 className='xl:text-[4rem] font-josefin sm:text-[3rem] mobile:text-[2.8rem] text-[2.5rem] font-bold xl:leading-[4.6rem] 
                 lg:leading-[4rem] mobile:leading-[3.5rem] leading-[3.3rem] 
