@@ -6,8 +6,7 @@ import { Link } from 'react-scroll';
 function Home() {
   return (
     <main id='home' className='bg-[#222] md:px-[8%] px-[4%] h-screen flex items-center justify-between relative'>
-        <section className='z-10 text-white lg:w-[70%] md:w-[80%] lg:-mt-[50px] md:-mt-[150px] 
-            mobile:-mt-[240px] low:-mt-[280px]'
+        <section className='z-10 text-white lg:w-[70%] md:w-[80%] sm::-mt-[50px] mobile:-mt-[100px] -mt-[120px]'
         > 
             <h1 className='xl:text-[4rem] font-josefin sm:text-[3rem] mobile:text-[2.8rem] text-[2.5rem] font-bold xl:leading-[4.6rem] 
                 lg:leading-[4rem] mobile:leading-[3.5rem] leading-[3.3rem] 
