@@ -35,7 +35,7 @@ function Home() {
                 </button>
             </Link>
         </section>
-        <div className='absolute right-0 bottom-0 md:w-[600px] sm:w-[500px] w-[350px]'>
+        <div className='absolute right-0 bottom-0 md:w-[600px] sm:w-[500px] w-[380px] animated-image'>
             <img src={Hero}/>
         </div>
     </main>
