@@ -8,7 +8,8 @@ export default {
         monsterrat: ['Montserrat', 'sans-serif']
       },
       screens: {
-        "mobile": "500px"
+        "mobile": "500px",
+        "low": "390px"
       }
     },
   },
