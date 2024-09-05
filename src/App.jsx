@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import { About, Contact, Gallery, Home, Service } from './Components/index';
+import { About, Contact, Gallery, Home, Navbar, Service } from './Components/index';
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <Home />
       <Service />
       <About />

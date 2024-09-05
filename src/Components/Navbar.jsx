@@ -14,15 +14,15 @@ function Navbar() {
     }
 
     return (
-        <nav className='py-4 md:px-[8%] px-[4%] text-white font-monsterrat flex justify-between 
-            items-center text-[1.05rem] relative '
+        <nav className='py-4 md:px-[8%] px-[4%] text-white bg-[#222] border-b border-white/30 font-monsterrat flex justify-between 
+            items-center text-[1.05rem] relative'
         >
             <header className='w-[100px]'>
                 <img src={Logo}/>
             </header>
 
             <ul id='navbar' className={`items-center gap-[3rem] lg:flex
-                ${isNavActive ? 'absolute w-full top-[5.1rem] border-t border-b border-white/30 bg-[#222] left-0 p-7 pb-14 px-[4%] lg:px-[10%] grid grid-cols-3 rounded-b-xl transition-all duration-300': 'hidden'}`}
+                ${isNavActive ? 'absolute z-10 w-full top-[5.1rem] border-t border-b border-white/30 bg-[#222] left-0 p-7 pb-14 px-[4%] lg:px-[10%] grid grid-cols-3 rounded-b-xl transition-all duration-300': 'hidden'}`}
             >
                 <Link
                     onClick={closeMenu}
