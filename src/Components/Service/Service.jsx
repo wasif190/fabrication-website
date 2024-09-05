@@ -1,8 +1,8 @@
 import React from 'react';
-import serviceData from '../data/service.json';
+import serviceData from '../../data/service.json';
 import ServiceCard from './ServiceCard';
 
-function Services() {
+function Service() {
     const { services } = serviceData;
     return (
         <div id='service' className='sm:px-[8%] px-[4%] pt-[100px]'>
@@ -21,4 +21,4 @@ function Services() {
     )
 }
 
-export default Services
+export default Service

@@ -2,25 +2,25 @@
     "services": [
         {
             "id": 1,
-            "icon": "/assets/fabrication.png",
+            "icon": "/serviceIcons/fabrication.png",
             "title": "Custom Metal Fabrication",
             "description": "Designing and creating custom metal parts, structures, and products tailored to specific client needs, such as custom gates, fences, railings, and architectural metalwork."
         },
         {
             "id": 2,
-            "icon": "/assets/welding.png",
+            "icon": "/serviceIcons/welding.png",
             "title": "Welding Services",
             "description": "Providing various welding techniques to join or repair metal parts, including MIG welding, TIG welding, arc welding, spot welding, and aluminum welding."
         },
         {
             "id": 3,
-            "icon": "/assets/cutting.png",
+            "icon": "/serviceIcons/cutting.png",
             "title": "Cutting and Shearing",
             "description": "Cutting metal sheets, bars, or rods to precise sizes and shapes using methods like laser cutting, plasma cutting, waterjet cutting, and shearing."
         },
         {
             "id": 4,
-            "icon": "/assets/bending.png",
+            "icon": "/serviceIcons/bending.png",
             "title": "Bending and Forming",
             "description": "Shaping metal sheets or rods into desired forms through bending or rolling, ideal for creating metal brackets, pipes, and structural components."
         }

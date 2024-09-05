@@ -1,27 +1,27 @@
-.nav-list {
+#navbar li {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
     cursor: pointer;
 }
 
-.nav-list i {
+#navbar li i {
     display: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .nav-list i {
+    #navbar li i {
         display: block;
     }
 }
 
-.hover-nav {
+#navbar li .hover-nav {
     display: inline-block;
     position: relative;
     text-decoration: none;
 }
 
-.hover-nav::after {
+#navbar li .hover-nav::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -35,19 +35,11 @@
     border-radius: 1px 1px;
 }
 
-.hover-nav:hover::after {
+#navbar li .hover-nav:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.profile-img {
-    background: url(../src/assets/hero-img.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    animation: blob 8s ease-in-out infinite 1s;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
-}
 
 .navbar--active-content {
     color: #d4d4d4;

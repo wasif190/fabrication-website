@@ -1,14 +1,15 @@
-import React from 'react'
-import { Home , Services, About, Gallery, Contact} from './Components/index'
+import React from 'react';
+import './App.css';
+import { About, Contact, Gallery, Home, Navbar, Service } from './Components/index'
 
 function App() {
   return (
     <div>
-        <Home/>
-        <Services/>
-        <About/>
-        <Gallery/>
-        <Contact/>
+      <Home/>
+      <Service/>
+      <About/>
+      <Gallery/>
+      <Contact/>
     </div>
   )
 }

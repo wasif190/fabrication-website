@@ -1,12 +1,14 @@
-import About from "./About";
+import Navbar from "./Navbar";
 import Home from "./Home";
-import Services from "./Services";
-import Gallery from "./Gallery";
+import Service from "./Service/Service";
+import About from "./About";
+import Gallery from "./Gallery/Gallery";
 import Contact from "./Contact";
 
 export {
+    Navbar,
     Home,
-    Services,
+    Service,
     About,
     Gallery,
     Contact

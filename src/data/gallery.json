@@ -1,0 +1,32 @@
+{
+    "gallery": [
+        {
+            "id": 1,
+            "name": "Custom Iron Gate",
+            "description": "High-quality, custom-designed iron gates for homes and commercial properties.",
+            "price": "₹20,000 - ₹50,000",
+            "image": "/gallery/iron-gate.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Aluminum Windows",
+            "description": "Durable and weather-resistant aluminum windows in various designs and sizes.",
+            "price": "$₹12,000 - ₹40,000",
+            "image": "/gallery/aluminum-window.webp"
+        },
+        {
+            "id": 3,
+            "name": "Steel Railings",
+            "description": "Stylish and strong steel railings for staircases and balconies.",
+            "price": "₹20,000 - ₹50,000",
+            "image": "/gallery/steel-railings.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Metal Doors",
+            "description": "Secure and robust metal doors, perfect for warehouses and industrial use.",
+            "price": "₹20,000 - ₹40,000",
+            "image": "/gallery/metal-doors.jpg"
+        }
+    ]
+}
