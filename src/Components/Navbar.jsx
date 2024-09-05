@@ -31,7 +31,7 @@ function Navbar() {
                     smooth={true}
                     offset={-70}
                     duration={400}
-                    to="hero"
+                    to="home"
                     className="navbar--content"
                 >
                     <li>
