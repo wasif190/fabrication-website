@@ -11,5 +11,5 @@ export {
     Service,
     About,
     Gallery,
-    Contact
+    Contact,
 }
